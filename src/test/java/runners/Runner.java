@@ -8,7 +8,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features/login.feature",
+		//features = "src/test/resources/features/transfer.feature",
+		features = "classpath:features",
 		glue = "steps",
 		plugin = "pretty", 
 		monochrome = true, 
